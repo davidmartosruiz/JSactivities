@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- enlace con Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/javascript.js"></script>
+    <!-- enlace con fontawesome 4.7-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Triangles</title>
+</head>
+<body>
+    <h1>Classify a triangle as equilateral, isosceles or scalene</h1>
+    <!-- formulario -->
+    <div id="form">
+        <label for="1side">1º side:</label>
+        <input type="number" step="0.1" id="1side" placeholder="in centimetres" required> *<br><br>
+        <label for="2side">2º side:</label>
+        <input type="number" step="0.1" id="2side" placeholder="in centimetres" required> *<br><br>
+        <label for="3side">3º side:</label>
+        <input type="number" step="0.1" id="3side" placeholder="in centimetres" required> *<br><br>
+        <button onclick="triangles()">Calculate</button>
+        <!-- resultado -->
+        <h2 id="solution"></h2>
+    </div>
+    
+    <!-- flecha para volver atrás -->
+    <a href="../../index.html"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+</body>
+</html>

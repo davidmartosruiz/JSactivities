@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- enlace con Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/javascript.js"></script>
+    <!-- enlace con fontawesome 4.7-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Geometry Calculator</title>
+</head>
+<body>
+    <h1>JavaScript Geometry Calculator</h1>
+    <!-- formulario -->
+    <div id="form">
+        <label for="">Type a radio in centimetres: </label> <!-- etiqueta informativa -->
+        <input type="number" id="radio" required> *<!-- campo de entrada -->
+        <button onclick="calculate()">Calculate</button>
+        <!-- resultado -->
+        <h2 id="lengthSolution"></h2>
+        <h2 id="areaSolution"></h2>
+        <h2 id="volumeSolution"></h2>
+    </div>
+    
+    <!-- flecha para volver atrás -->
+    <a href="../../index.html"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+</body>
+</html>
