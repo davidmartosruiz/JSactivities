@@ -27,7 +27,7 @@ function calculate(){
     document.getElementById("solution").innerHTML="The final mark is: " + finalMark;
 
     if (finalMark >= 5){
-        document.getElementById("indication").innerHTML="Congrats, you has passed.";
+        document.getElementById("indication").innerHTML="Congrats, you have passed.";
     }else{
         document.getElementById("indication").innerHTML="Sorry, you would need to come in June.";
     }
